@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        /*# e igual a ID
+        . e igual a class
+        :e igual a pseudo class
+        :: e igual a pseudo element
+        > e igual a children*/
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color:blue;
+            text-decoration: none;
+            font-weight: lighter;
+        }
+        a:visited{
+            color: red;
+        }
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+        a:active{
+            color: rgb(84, 175, 57);
+        }
+        a::before{
+            content: '☞';
+            font-weight: normal;
+            color: darkgrey;
+        }
+        a::after{
+            content: '☜';
+            font-weight: normal;
+            text-decoration: none;
+            color: darkgrey;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://www.facebook.com/wmuciarone"target="_blank"rel="Facebook"> Facebook</a></li>
+        <li><a href="https://www.instagram.com/weverson_muciarone/"> Instagram</a></li>
+        <li><a href="https://www.linkedin.com/in/weverson-muciarone/"> Linkedin</a></li>
+    </ul>
+</body>
+</html> 
